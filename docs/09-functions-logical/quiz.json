@@ -1,0 +1,38 @@
+[
+  {
+    "id": "09-q1",
+    "statement": "IF…THEN…ELSEIF…ELSE…END の END は省略してはならない (必須である)。",
+    "answer": true,
+    "explanation": "Tableau の IF 式は END で締めるのが必須です。書き忘れは構文エラーになります。"
+  },
+  {
+    "id": "09-q2",
+    "statement": "CASE 文は IF 文と等しい表現力を持ち、メジャーの大小比較 (例: > 1000) も書ける。",
+    "answer": false,
+    "explanation": "CASE は単一フィールドと **等価比較** のみで分岐します。大小比較や複雑な条件は IF を使う必要があります。"
+  },
+  {
+    "id": "09-q3",
+    "statement": "IIF は条件・真値・偽値の 3 引数に加えて、第 4 引数で「条件が NULL のときの値」を指定できる。",
+    "answer": true,
+    "explanation": "`IIF(条件, 真値, 偽値, NULL値)` の形で書けます。第 4 引数は省略可能で、省略時は NULL を返します。"
+  },
+  {
+    "id": "09-q4",
+    "statement": "IFNULL(a, b) は a が NULL のとき b、それ以外は a を返す関数で、ZN と意味的には同じである。",
+    "answer": false,
+    "explanation": "IFNULL は任意型の NULL を置き換えますが、ZN は **数値の NULL を 0 に固定** で置き換える専用関数です。等価ではありません。"
+  },
+  {
+    "id": "09-q5",
+    "statement": "AND と OR を混在させた式では、OR の方が優先順位が低いため、混在時は括弧で明示するのが安全である。",
+    "answer": true,
+    "explanation": "Tableau でも一般的な論理演算子の優先順位 (NOT > AND > OR) に従います。意図と異なる評価を避けるため括弧での明示が推奨されます。"
+  },
+  {
+    "id": "09-q6",
+    "statement": "Tableau の IN 演算子を使うと、`[Payment Type] IN ('Cash', 'Credit Card')` のように複数値の等価判定を 1 行で書ける。",
+    "answer": true,
+    "explanation": "リスト内の値と一致するかを判定する書き方です。長い OR 式を簡潔に書けます。"
+  }
+]

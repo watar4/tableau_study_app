@@ -1,0 +1,20 @@
+[
+  {
+    "id": "00-q1",
+    "statement": "本ツールは Tableau Desktop だけでなく、Tableau Cloud / Server の操作も同等に詳しく扱う。",
+    "answer": false,
+    "explanation": "本ツールは Tableau Desktop を主対象としています。Tableau Cloud / Server は 17 章で概要のみ扱います。"
+  },
+  {
+    "id": "00-q2",
+    "statement": "演習データには City of Chicago Open Data Portal から取得し抽出した .hyper ファイルを使用する。",
+    "answer": true,
+    "explanation": "シカゴ市が公開している Taxi Trips データを CSV でダウンロードし、Tableau Desktop で抽出 (.hyper) に変換してリポジトリに同梱しています。"
+  },
+  {
+    "id": "00-q3",
+    "statement": "クイズの回答状況はサーバー側に保存されるため、別の PC からアクセスしても進捗が引き継がれる。",
+    "answer": false,
+    "explanation": "クイズの回答状況はブラウザの localStorage に保存されます。別 PC や別ブラウザでは引き継がれません。"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "tableau-study-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "新人向け Tableau Desktop 学習サイト",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0",
+    "vue": "^3.5.0"
+  }
+}

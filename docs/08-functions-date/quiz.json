@@ -1,0 +1,50 @@
+[
+  {
+    "id": "08-q1",
+    "statement": "DATEDIFF('day', #2024-01-01#, #2024-01-15#) は 14 を返す。",
+    "answer": true,
+    "explanation": "DATEDIFF は終点 − 始点の差を返します (両端を含む数え方ではなく、差分日数)。"
+  },
+  {
+    "id": "08-q2",
+    "statement": "DATETRUNC('month', #2024-05-15 14:30#) は 2024-05-15 00:00 を返す。",
+    "answer": false,
+    "explanation": "DATETRUNC('month', ...) は月の初日 00:00 に切り捨てます。よってこの式は 2024-05-01 00:00 を返します。"
+  },
+  {
+    "id": "08-q3",
+    "statement": "DATEADD('month', 1, #2024-01-31#) は 2024-03-03 を返す。",
+    "answer": false,
+    "explanation": "Tableau は月末日を保持するため、1 月 31 日 + 1 ヶ月は対象月 (2 月) の月末日 = 2024-02-29 (うるう年) を返します。"
+  },
+  {
+    "id": "08-q4",
+    "statement": "TODAY 関数は日付型を、NOW 関数は日時型を返す。",
+    "answer": true,
+    "explanation": "日単位の比較なら TODAY、時刻まで使うなら NOW を使い分けます。"
+  },
+  {
+    "id": "08-q5",
+    "statement": "Tableau の週開始曜日はデータソース単位で設定でき、DATEDIFF や DATETRUNC の動作に影響する。",
+    "answer": true,
+    "explanation": "「データソース」→「日付プロパティ」→「週開始曜日」で変更できます。週次集計の境界に直接効きます。"
+  },
+  {
+    "id": "08-q6",
+    "statement": "DATEPARSE はライブ接続のデータソースによってはサポートされない場合がある。",
+    "answer": true,
+    "explanation": "DATEPARSE はバックエンドの DB の機能に依存し、未対応のドライバーや一部の DB ではエラーになります。抽出にすると Hyper エンジンで処理されるため、ほぼ常に利用可能です。"
+  },
+  {
+    "id": "08-q7",
+    "statement": "MTD (Month-to-Date) は DATEPART('month', TODAY()) と DATEPART('month', 対象日) が一致するかどうかだけで判定でき、年の比較は不要である。",
+    "answer": false,
+    "explanation": "年が違っても月だけ一致してしまうため、年と月の両方を比較する必要があります。一般的には DATETRUNC('month', TODAY()) と DATETRUNC('month', 対象日) の一致で判定します。"
+  },
+  {
+    "id": "08-q8",
+    "statement": "DATEDIFF('day', #2024-01-01#, #2024-02-01#) は 31 を返す。",
+    "answer": true,
+    "explanation": "1 月は 31 日まであるため、2024-01-01 から 2024-02-01 までの差は 31 日です。"
+  }
+]

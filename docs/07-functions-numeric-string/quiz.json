@@ -1,0 +1,50 @@
+[
+  {
+    "id": "07-q1",
+    "statement": "ROUND(123.456, 1) は 123.5 を返す。",
+    "answer": true,
+    "explanation": "第 2 引数は小数点以下の桁数で、四捨五入されます。"
+  },
+  {
+    "id": "07-q2",
+    "statement": "LEN 関数は文字列のバイト数を返す。",
+    "answer": false,
+    "explanation": "LEN は文字数を返します (バイト数ではありません)。日本語の 1 文字も 1 としてカウントされます。"
+  },
+  {
+    "id": "07-q3",
+    "statement": "CONTAINS('Chicago', 'cag') は true を返す。",
+    "answer": true,
+    "explanation": "'Chicago' に含まれる 'cag' (位置 4 から始まる) と一致するため true です。CONTAINS は大文字小文字を区別する点に注意してください。"
+  },
+  {
+    "id": "07-q4",
+    "statement": "SPLIT 関数の戻り値は分割後の全要素を含むリスト型である。",
+    "answer": false,
+    "explanation": "SPLIT(string, delimiter, tokennumber) は指定したインデックス番目の **1 つの文字列** を返します。複数要素を一度に取得することはできません。"
+  },
+  {
+    "id": "07-q5",
+    "statement": "REGEXP_EXTRACT は正規表現の捕捉グループに一致した部分文字列を返す。",
+    "answer": true,
+    "explanation": "パターン内のキャプチャグループ (括弧で囲んだ部分) が抽出対象です。"
+  },
+  {
+    "id": "07-q6",
+    "statement": "INT 関数は小数を 0 方向に切り捨てるため、INT(-3.5) は -3 を返す。",
+    "answer": true,
+    "explanation": "INT は FLOOR とは異なり、0 方向へ切り捨てます。FLOOR(-3.5) なら -4 です。"
+  },
+  {
+    "id": "07-q7",
+    "statement": "DATEPARSE 関数はフォーマット指定がなくても文字列を日時に変換できる。",
+    "answer": false,
+    "explanation": "DATEPARSE は第 1 引数にフォーマット文字列、第 2 引数に対象文字列を指定する必要があります。フォーマットを書かなくてよいのは型変換の DATE / DATETIME です。"
+  },
+  {
+    "id": "07-q8",
+    "statement": "MAKEDATE(2024, 5, 1) は 2024-05-01 を返す。",
+    "answer": true,
+    "explanation": "MAKEDATE(year, month, day) は指定した年月日の日付型を返します。"
+  }
+]

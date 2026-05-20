@@ -1,0 +1,20 @@
+[
+  {
+    "id": "17-q1",
+    "statement": ".twbx ファイルはワークブック定義に加えて、抽出データや使用画像などをまとめてパッケージ化したファイルである。",
+    "answer": true,
+    "explanation": "他者への共有時には .twbx を使うのが基本です。データを含まない .twb のみを渡しても、相手側にデータソースがなければ開けません。"
+  },
+  {
+    "id": "17-q2",
+    "statement": "Tableau Public に公開したワークブックは、公開後でも閲覧者を絞った非公開モードに変更できる。",
+    "answer": false,
+    "explanation": "Tableau Public は本質的に「全世界に公開」されるサービスです。閲覧制限が必要な場合は Tableau Cloud または Tableau Server を利用します。"
+  },
+  {
+    "id": "17-q3",
+    "statement": "Tableau Cloud と Tableau Server の主な違いは、Tableau 社がホスティングするか自社オンプレで運用するかである。",
+    "answer": true,
+    "explanation": "Cloud は Tableau 社がホスティングする SaaS、Server は自社環境にインストールして運用する形態です。"
+  }
+]

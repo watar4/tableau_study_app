@@ -1,0 +1,32 @@
+[
+  {
+    "id": "10-q1",
+    "statement": "COUNT は NULL を除いた行数を、COUNTD は NULL を除いた一意の値の数を返す。",
+    "answer": true,
+    "explanation": "どちらも NULL は数えません。「重複なし件数」が必要な場合は COUNTD を使います。"
+  },
+  {
+    "id": "10-q2",
+    "statement": "AVG 関数は NULL を 0 として扱って平均値を計算する。",
+    "answer": false,
+    "explanation": "AVG は NULL を除外して計算します。NULL を 0 として扱いたい場合は明示的に ZN を適用したうえで平均を計算します。"
+  },
+  {
+    "id": "10-q3",
+    "statement": "ATTR は対象のディメンション値が集計後に一意ならその値を、複数あれば `*` を返す。",
+    "answer": true,
+    "explanation": "ツールヒントなどに「集計粒度に依存しない属性値」を出したいときに使われます。"
+  },
+  {
+    "id": "10-q4",
+    "statement": "PERCENTILE([field], 0.5) は中央値 (MEDIAN) と同じ値を返す。",
+    "answer": true,
+    "explanation": "中央値は 50 パーセンタイルです。任意のパーセンタイルが必要なときに PERCENTILE を使います。"
+  },
+  {
+    "id": "10-q5",
+    "statement": "COUNTD は抽出ファイルでは使えず、ライブ接続でのみ利用できる関数である。",
+    "answer": false,
+    "explanation": "COUNTD は抽出 (.hyper) でもライブ接続でも利用できます。ただし基数の大きな列に対しては重い処理になりがちなので、必要な粒度で集計済みデータを用意する設計も検討します。"
+  }
+]

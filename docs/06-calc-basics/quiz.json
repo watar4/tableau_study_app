@@ -1,0 +1,32 @@
+[
+  {
+    "id": "06-q1",
+    "statement": "計算フィールドはデータソースの列とは別にワークブック内に保持され、元データを書き換えるわけではない。",
+    "answer": true,
+    "explanation": "計算フィールドは Tableau 側の論理列です。データソース側のテーブルやファイルそのものは変更されません。"
+  },
+  {
+    "id": "06-q2",
+    "statement": "ZN 関数は文字列が空の場合に空文字を返す関数である。",
+    "answer": false,
+    "explanation": "ZN は数値の NULL を 0 に変換する関数です。文字列の null 処理には IFNULL や ISNULL を使います。"
+  },
+  {
+    "id": "06-q3",
+    "statement": "ISNULL([field]) は値が NULL のときに TRUE を返す論理関数である。",
+    "answer": true,
+    "explanation": "条件式と組み合わせて null セーフな分岐を書く際に頻出します。"
+  },
+  {
+    "id": "06-q4",
+    "statement": "行レベル計算と集計関数を同じ式の中で混在させると、原則として「集計と非集計の混在エラー」になる。",
+    "answer": true,
+    "explanation": "例えば `SUM([Sales]) / [Profit]` のように片方だけ集計済みの式は混在エラーになります。両方とも集計するか、両方とも非集計にする必要があります。"
+  },
+  {
+    "id": "06-q5",
+    "statement": "Tableau の計算フィールドのコメントは `#` (シャープ) で始める。",
+    "answer": false,
+    "explanation": "Tableau のコメントは `//` (1 行) か `/* */` (複数行) です。`#` は使えません。"
+  }
+]

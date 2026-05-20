@@ -1,0 +1,44 @@
+[
+  {
+    "id": "11-q1",
+    "statement": "表計算は、ビューに出した集計値に対して二次的に計算を行う仕組みである。",
+    "answer": true,
+    "explanation": "つまり「データソース → 集計 → 表計算」の順序で評価されます。集計結果に対する後処理という位置づけです。"
+  },
+  {
+    "id": "11-q2",
+    "statement": "表計算の計算方向 (アドレッシング/パーティショニング) は、表を「横方向」「縦方向」「セル単位」などで指定できる。",
+    "answer": true,
+    "explanation": "「横→縦」「特定ディメンションを使用」などの設定で、累計や移動平均をどの方向に計算するかを制御します。"
+  },
+  {
+    "id": "11-q3",
+    "statement": "WINDOW_SUM は計算方向 (アドレッシング/パーティショニング) を指定しなくても、常に意図どおりの集計を返す。",
+    "answer": false,
+    "explanation": "表計算は計算方向によって結果が変わります。Tableau のデフォルト方向が想定と異なる場合、明示的に方向を指定する必要があります。"
+  },
+  {
+    "id": "11-q4",
+    "statement": "RUNNING_SUM(SUM([trip_total])) は、集計済み trip_total の累計を返す。",
+    "answer": true,
+    "explanation": "RUNNING_SUM は累積合計を返す表計算関数です。前提として中の式は既に集計されている必要があります。"
+  },
+  {
+    "id": "11-q5",
+    "statement": "LOOKUP(SUM([trip_total]), -1) は計算方向に沿って 1 つ前の行の集計値を返す。",
+    "answer": true,
+    "explanation": "オフセットに負の値を入れると過去方向、正の値で未来方向の値を取得できます。"
+  },
+  {
+    "id": "11-q6",
+    "statement": "RANK 系の関数は同順位の扱いがすべて同じで、必ず連続した順位番号を返す。",
+    "answer": false,
+    "explanation": "RANK / RANK_DENSE / RANK_UNIQUE / RANK_MODIFIED で同順位の扱いが異なります。例えば RANK は同順位を共有し次の順位を飛ばしますが、RANK_DENSE は飛ばしません。"
+  },
+  {
+    "id": "11-q7",
+    "statement": "INDEX 関数はパーティション内の現在行の位置を 1 始まりで返す。",
+    "answer": true,
+    "explanation": "「先頭から N 番目だけハイライト」のような表現に便利です。"
+  }
+]
