@@ -32,11 +32,7 @@ import quiz from './quiz.json'
 5. フィルター・凡例の適用範囲、タイトル、ツールヒントなどを調整
 6. アクションを設定して対話性を持たせる（次章）
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">ダッシュボードビューの左サイドバー（シート/オブジェクト）</span>
-  <span class="img-placeholder-path">docs/public/images/14-dashboard/sidebar.png</span>
-</div>
+![ダッシュボードビューの左サイドバー（シート/オブジェクト）](/images/14-dashboard/sidebar.png)
 
 ::: tip まずシート単体を仕上げてから
 ダッシュボードに入れてから個別シートを修正することもできますが、まずはシート単体で見栄え・ラベル・ツールヒントまで整えておくと、組み立てがスムーズです。
@@ -64,11 +60,7 @@ import quiz from './quiz.json'
 公開・配布用のダッシュボードは「**固定サイズ**」が無難です。自動 / レンジは便利な反面、配置がズレて意図しない見た目になることがあり、配信前の確認コストが高くなります。
 :::
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">ダッシュボードサイズの選択UI</span>
-  <span class="img-placeholder-path">docs/public/images/14-dashboard/size-options.png</span>
-</div>
+![ダッシュボードサイズの選択UI](/images/14-dashboard/size-options.png)
 
 ---
 
@@ -112,11 +104,7 @@ import quiz from './quiz.json'
 - KPI 行は「水平コンテナ」で 4 枚のテキストオブジェクトを並べる
 - メイングラフ部は「水平コンテナ」で「左にトレンド、右に構成比」
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">水平・垂直コンテナを組み合わせた典型レイアウト</span>
-  <span class="img-placeholder-path">docs/public/images/14-dashboard/layout-containers.png</span>
-</div>
+![水平・垂直コンテナを組み合わせた典型レイアウト](/images/14-dashboard/layout-containers.png)
 
 ::: tip レイアウトペインで構造を確認
 左サイドバーの「**レイアウト**」タブを開くと、コンテナの入れ子構造をツリーで確認・編集できます。深くネストすると把握しにくくなるので、ツリーを見ながら整理するとよいです。
@@ -182,11 +170,7 @@ import quiz from './quiz.json'
 
 公開後、閲覧者の画面サイズに応じて Tableau が最適なレイアウトを自動選択します。なお、デバイスレイアウトは元のダッシュボードのシートを **共通に使い回す** ため、デバイスごとに別のシートを作り直す必要はありません。表示するシートの取捨選択や配置だけをデバイスごとに変えられます。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">デバイスデザイナーでスマホ用レイアウトを編集する画面</span>
-  <span class="img-placeholder-path">docs/public/images/14-dashboard/device-designer.png</span>
-</div>
+![デバイスデザイナーでスマホ用レイアウトを編集する画面](/images/14-dashboard/device-designer.png)
 
 ::: warning メンテナンスコストに注意
 デバイス別レイアウトを作ると、シートを 1 つ修正したときに「デスクトップ用」「スマホ用」両方を確認する必要が出ます。本当に複数デバイスで使われるかを見極めてから導入しましょう。

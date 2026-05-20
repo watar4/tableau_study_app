@@ -34,11 +34,7 @@ Tableau にデータをつなぐ方法は、大きく **ライブ接続 (Live)**
 
 データソースタブ右上に **「ライブ」** と **「抽出」** のラジオボタンがあり、ここで切り替えます。ライブから抽出に切り替えると、`.hyper` の保存ダイアログが表示されます。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">データソースタブの「ライブ / 抽出」トグル</span>
-  <span class="img-placeholder-path">docs/public/images/03-extract-vs-live/live-extract-toggle.png</span>
-</div>
+![データソースタブの「ライブ / 抽出」トグル](/images/03-extract-vs-live/live-extract-toggle.png)
 
 ::: info ファイル接続でも抽出は有効
 Excel / CSV / `.hyper` のようなファイル接続でも、抽出に切り替えて型・計算フィールドをコンパイルした `.hyper` を再生成できます。極端な大容量ファイルや、`.twbx` で配布する場合に有効です。
@@ -106,11 +102,7 @@ Hyper はカラム単位で圧縮・統計情報を持っており、`SUM(trip_t
 
 開発時に「とりあえず先頭 1000 行で動作確認したい」ときに使います。本番抽出前のリハーサル用と考えましょう。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">抽出の編集ダイアログ（フィルター / 集計 / サンプリング）</span>
-  <span class="img-placeholder-path">docs/public/images/03-extract-vs-live/extract-dialog.png</span>
-</div>
+![抽出の編集ダイアログ（フィルター / 集計 / サンプリング）](/images/03-extract-vs-live/extract-dialog.png)
 
 ---
 

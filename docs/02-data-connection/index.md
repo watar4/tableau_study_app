@@ -36,11 +36,7 @@ Tableau Desktop は非常に多くのデータソースに接続できます。�
 頻出 DB には専用のネイティブコネクタが提供され、最適化された SQL が発行されます。これに対し、汎用 ODBC / JDBC でつなぐことも可能ですが、パフォーマンスや関数互換性に差が出る場合があります。
 :::
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">スタート画面の接続ペイン（ファイル/サーバー/保存済み）</span>
-  <span class="img-placeholder-path">docs/public/images/02-data-connection/start-page-connect.png</span>
-</div>
+![スタート画面の接続ペイン（ファイル/サーバー/保存済み）](/images/02-data-connection/start-page-connect.png)
 
 ---
 
@@ -56,11 +52,7 @@ Tableau Desktop は非常に多くのデータソースに接続できます。�
 
 接続が完了すると **データソースタブ** が開きます。中央のキャンバスに使うシート（テーブル）をドラッグし、画面下の「データのプレビュー」で中身を確認しましょう。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">データソースタブと .hyper の接続例</span>
-  <span class="img-placeholder-path">docs/public/images/02-data-connection/datasource-tab.png</span>
-</div>
+![データソースタブと .hyper の接続例](/images/02-data-connection/datasource-tab.png)
 
 ::: tip .hyper を直接開く
 `.hyper` は Tableau の抽出フォーマットそのものです。Excel/CSV と異なり、データ型・地理的役割・サムネイル情報が既に確定しているため、接続が非常に速く、本ツールの演習では `chicago_taxi_trips.hyper` を 1 クリックで開けば準備完了です。
@@ -187,11 +179,7 @@ Excel の「装飾的なヘッダー」「結合セル」「タイトル行」�
 
 1 つの文字列フィールドを区切り文字で複数フィールドに分割します。たとえば `company` に「Taxi Affiliation Services - 5074」のようなハイフン区切りの会社名 + 番号が入っているとき、「分割」または「カスタム分割」で会社名と番号を別フィールドにできます。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">データインタープリター・ピボット・分割の操作画面</span>
-  <span class="img-placeholder-path">docs/public/images/02-data-connection/data-prep-tools.png</span>
-</div>
+![データインタープリター・ピボット・分割の操作画面](/images/02-data-connection/data-prep-tools.png)
 
 ::: tip 接続段階で整えるか、計算フィールドで整えるか
 データ準備機能は **接続段階で物理的に変形** します。一方、計算フィールドは **論理的に派生フィールドを足す** だけで元データは変えません。汎用的に再利用するなら計算フィールド、データ自体が歪なら接続段階で整えるのが目安です。

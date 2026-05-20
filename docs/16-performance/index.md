@@ -64,11 +64,7 @@ Tableau Desktop には **パフォーマンスレコーダー** が組み込ま�
 
 棒の長いイベントが「ボトルネック」です。クエリが遅いならデータソース/計算の見直し、レイアウトが遅いならシート数/マーク数の削減、というように対策が分かれます。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">パフォーマンスレコーダーのレポート画面</span>
-  <span class="img-placeholder-path">docs/public/images/16-performance/performance-recorder.png</span>
-</div>
+![パフォーマンスレコーダーのレポート画面](/images/16-performance/performance-recorder.png)
 
 ::: info ダッシュボード別の「パフォーマンス分析の最適化」
 Tableau Cloud / Server では、公開済みワークブックに対しても「**パフォーマンスの記録**」を取れる管理機能があります。本番環境で実際の閲覧者と同じ条件での計測が可能です。

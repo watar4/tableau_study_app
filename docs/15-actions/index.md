@@ -34,11 +34,7 @@ import quiz from './quiz.json'
 | **セット値の変更** | クリックでセットのメンバーを書き換え | 動的ドリルダウン |
 | **シートに移動** | 別のダッシュボード/シートに遷移 | ナビゲーション |
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">アクション追加ダイアログ（種類選択）</span>
-  <span class="img-placeholder-path">docs/public/images/15-actions/action-types.png</span>
-</div>
+![アクション追加ダイアログ（種類選択）](/images/15-actions/action-types.png)
 
 ::: tip 共通の構成要素
 どのアクションも「**ソース（操作を受け付けるシート）**」「**ターゲット（変化が起きる先）**」「**トリガー（ホバー/選択/メニュー）**」「**選択解除時の挙動**」を指定するという共通構造を持ちます。最初は混乱しますが、この型を覚えると一気に楽になります。
@@ -71,11 +67,7 @@ import quiz from './quiz.json'
 
 「すべてのフィールド」だとソースとターゲットの共通フィールドすべてが連動します。「選択したフィールド」を選ぶと、たとえば `company` だけ連動させて `payment_type` は無視、といった制御が可能です。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">フィルターアクションの設定ダイアログ</span>
-  <span class="img-placeholder-path">docs/public/images/15-actions/filter-action.png</span>
-</div>
+![フィルターアクションの設定ダイアログ](/images/15-actions/filter-action.png)
 
 ::: info シート上の「フィルターとして使用」ボタン
 ダッシュボード上でシートのタイトルバー右にあるじょうご型のアイコン（「フィルターとして使用」）をクリックすると、そのシートをソースとするフィルターアクションが自動生成されます。手っ取り早く対話性を持たせたいときに便利です。
@@ -132,11 +124,7 @@ https://www.google.com/search?q=<company>
 - 「選択」: クリックで即時開く（押した瞬間にブラウザが立ち上がる点に注意）
 - 「ホバー」: ホバーで開く（基本的に推奨しない。意図せず開いてしまう）
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">URL アクションでフィールド値を埋め込む設定</span>
-  <span class="img-placeholder-path">docs/public/images/15-actions/url-action.png</span>
-</div>
+![URL アクションでフィールド値を埋め込む設定](/images/15-actions/url-action.png)
 
 ::: warning 機微情報を URL に乗せない
 URL は履歴・ログに残ります。個人情報や認証トークンを含む URL を作らないように注意しましょう。

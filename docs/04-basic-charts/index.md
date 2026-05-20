@@ -56,11 +56,7 @@ import quiz from './quiz.json'
 - 色に `payment_type` をドラッグ → 支払方法ごとに積み上げ
 - `SUM(trip_total)` を右クリック → 「クイック表計算」 → 「合計に対する割合」 → 100% 積み上げに
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">会社別売上の横棒グラフ（payment_type で積み上げ）</span>
-  <span class="img-placeholder-path">docs/public/images/04-basic-charts/bar-chart.png</span>
-</div>
+![会社別売上の横棒グラフ（payment_type で積み上げ）](/images/04-basic-charts/bar-chart.png)
 
 ::: info 並べ替えのショートカット
 横棒グラフの軸ヘッダー部分にマウスを乗せると、降順・昇順アイコンが現れます。クリック 1 つで売上順に並べ替えできます。
@@ -91,11 +87,7 @@ import quiz from './quiz.json'
 たとえば最新月のデータが「20 日まで」のように途切れていると、月単位の折れ線で **最終点が極端に低くなる** ことがあります。フィルターで「完全な月のみ」に絞るか、表記で注意書きを入れる工夫が必要です。
 :::
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">月別 SUM(trip_total) の推移（折れ線）</span>
-  <span class="img-placeholder-path">docs/public/images/04-basic-charts/line-chart.png</span>
-</div>
+![月別 SUM(trip_total) の推移（折れ線）](/images/04-basic-charts/line-chart.png)
 
 ---
 
@@ -115,11 +107,7 @@ import quiz from './quiz.json'
 散布図はマーク数が多くなりがちです。100 万行をそのまま打点すると重く・読みづらくなるので、**フィルターで件数を絞る** か **粒度を粗くする**（例: `pickup_community_area` 単位）必要があります。
 :::
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">距離 × 料金の散布図にトレンドラインを追加</span>
-  <span class="img-placeholder-path">docs/public/images/04-basic-charts/scatter-plot.png</span>
-</div>
+![距離 × 料金の散布図にトレンドラインを追加](/images/04-basic-charts/scatter-plot.png)
 
 ---
 
@@ -154,11 +142,7 @@ import quiz from './quiz.json'
 
 例: 列に `DATEPART('hour', trip_start_timestamp)`、行に `DATENAME('weekday', trip_start_timestamp)`、色に `COUNTD(trip_id)` を置くと、「曜日 × 時間帯の需要ヒートマップ」が作れます。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">曜日 × 時間帯の乗車件数ヒートマップ</span>
-  <span class="img-placeholder-path">docs/public/images/04-basic-charts/heatmap.png</span>
-</div>
+![曜日 × 時間帯の乗車件数ヒートマップ](/images/04-basic-charts/heatmap.png)
 
 ---
 
@@ -183,11 +167,7 @@ Chicago Taxi には緯度経度 (`pickup_centroid_latitude` / `pickup_centroid_l
 地図の背景タイルは Tableau がインターネット経由で取得します。完全オフライン環境では背景が出ないため、社内ネットワーク要件を事前に確認しましょう。
 :::
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">乗車地の記号マップ（色 = 売上、サイズ = 件数）</span>
-  <span class="img-placeholder-path">docs/public/images/04-basic-charts/map.png</span>
-</div>
+![乗車地の記号マップ（色 = 売上、サイズ = 件数）](/images/04-basic-charts/map.png)
 
 ---
 
@@ -247,11 +227,7 @@ Show Me に頼らず、マークカード一番上のドロップダウンから
 | 円グラフ | 構成 |
 | 密度 | 大量点の濃淡可視化 |
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">Show Me パネルとマークタイプドロップダウン</span>
-  <span class="img-placeholder-path">docs/public/images/04-basic-charts/show-me.png</span>
-</div>
+![Show Me パネルとマークタイプドロップダウン](/images/04-basic-charts/show-me.png)
 
 ---
 

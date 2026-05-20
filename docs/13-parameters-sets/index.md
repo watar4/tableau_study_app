@@ -56,11 +56,7 @@ import quiz from './quiz.json'
 - **リスト**: あらかじめ定義した選択肢から選ぶ。「フィールドから追加」でデータの値を流用できる
 - **範囲**: 数値や日付の最小値・最大値・刻み幅を指定し、スライダーで選ばせる
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">パラメーター作成ダイアログ（リスト型）</span>
-  <span class="img-placeholder-path">docs/public/images/13-parameters-sets/parameter-dialog.png</span>
-</div>
+![パラメーター作成ダイアログ（リスト型）](/images/13-parameters-sets/parameter-dialog.png)
 
 ::: info パラメーターコントロールの表示
 作成したパラメーターをデータペインで右クリック → 「**パラメーターの表示**」でビュー右側にコントロールが表示されます。ダッシュボードに配置するときも同様に「パラメーター」オブジェクトとして追加します。
@@ -94,11 +90,7 @@ import quiz from './quiz.json'
 
 タイトルや注釈の編集画面で「**挿入**」 → 「**パラメーター**」を選ぶと、現在のパラメーター値が動的にタイトルに反映されます。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">参照線にパラメーターを使った棒グラフ</span>
-  <span class="img-placeholder-path">docs/public/images/13-parameters-sets/parameter-reference-line.png</span>
-</div>
+![参照線にパラメーターを使った棒グラフ](/images/13-parameters-sets/parameter-reference-line.png)
 
 ::: tip 「メジャー切替」テクニック
 パラメーターを文字列リスト型にして「売上」「乗車回数」「平均距離」などの選択肢を持たせ、計算フィールドで `CASE [指標切替] WHEN "売上" THEN [trip_total] ... END` のように分岐させると、ユーザーが見たい指標を切り替えられるダッシュボードが作れます。
@@ -139,11 +131,7 @@ import quiz from './quiz.json'
 | **計算セット（条件 / 上位）** | ディメンションを右クリック → 「作成」 → 「セット」 → 「条件」または「上位」タブ | 「売上 100万 以上」「TOP10 会社」など、条件に合うメンバー |
 | **動的セットアクション** | アクションメニューから「セット値の変更」 | ユーザーのクリックでメンバーを変える |
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">セット作成ダイアログ（条件タブ）</span>
-  <span class="img-placeholder-path">docs/public/images/13-parameters-sets/set-condition.png</span>
-</div>
+![セット作成ダイアログ（条件タブ）](/images/13-parameters-sets/set-condition.png)
 
 ### セットとグループの違い
 
@@ -195,11 +183,7 @@ IF [上位10社セット] THEN [trip_total] ELSE 0 END
 
 これで度数分布が描けます。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">trip_miles の度数分布（ヒストグラム）</span>
-  <span class="img-placeholder-path">docs/public/images/13-parameters-sets/histogram.png</span>
-</div>
+![trip_miles の度数分布（ヒストグラム）](/images/13-parameters-sets/histogram.png)
 
 ### 変動幅ビン（パラメーター連動）
 

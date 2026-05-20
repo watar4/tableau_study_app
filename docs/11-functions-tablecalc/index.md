@@ -95,11 +95,7 @@ import quiz from './quiz.json'
 | **パーセンタイル** | `RANK_PERCENTILE` | 上位 N% の位置 |
 | **移動計算** | `WINDOW_AVG` 等 | 移動平均 |
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">右クリック → クイック表計算メニュー</span>
-  <span class="img-placeholder-path">docs/public/images/11-functions-tablecalc/quick-tc-menu.png</span>
-</div>
+![右クリック → クイック表計算メニュー](/images/11-functions-tablecalc/quick-tc-menu.png)
 
 クイック表計算を適用した後、フィールドの三角アイコンをクリックして「**編集**」を開くと、自動生成された式を確認・カスタマイズできます。学習用に「クイック表計算で雛形を作ってから編集」という手順は非常に有効です。
 
@@ -268,11 +264,7 @@ FIRST() = 0
 
 これは「**現在の行が先頭かどうか**」を表す真偽値で、先頭行だけにラベルを付けるような演出に使います。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">INDEX() で TOP 5 に絞った棒グラフ</span>
-  <span class="img-placeholder-path">docs/public/images/11-functions-tablecalc/index-top5.png</span>
-</div>
+![INDEX() で TOP 5 に絞った棒グラフ](/images/11-functions-tablecalc/index-top5.png)
 
 ---
 
@@ -329,11 +321,7 @@ Chicago Taxi で表計算を実際に試します。`年月` を `DATETRUNC('mon
 7. **TOP 5 フィルター**: `INDEX() <= 5` を計算フィールドに作成し、フィルターに掛けて True を選択。元のフィルターを外すと、表計算ベースの動的トップ 5 が動きます。
 8. **順位**: `RANK_DENSE(SUM([trip_total]))` を列に置き、ランキングテーブルを作ります。タイの扱いを RANK と比較します。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">月別売上推移と 3 区間移動平均</span>
-  <span class="img-placeholder-path">docs/public/images/11-functions-tablecalc/moving-average.png</span>
-</div>
+![月別売上推移と 3 区間移動平均](/images/11-functions-tablecalc/moving-average.png)
 
 ---
 

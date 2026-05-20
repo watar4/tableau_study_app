@@ -287,11 +287,7 @@ ELSE "チップあり"
 END
 ```
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">料金帯バンドを色分けした棒グラフ</span>
-  <span class="img-placeholder-path">docs/public/images/09-functions-logical/fare-band-bar.png</span>
-</div>
+![料金帯バンドを色分けした棒グラフ](/images/09-functions-logical/fare-band-bar.png)
 
 ---
 

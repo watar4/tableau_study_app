@@ -45,11 +45,7 @@ Tableau の最も基本的な区別が **ディメンション** と **メジャ
 
 データに接続すると、Tableau はフィールドの型をもとに自動でディメンション/メジャーに振り分けます。データペインの**上半分がディメンション**、**下半分がメジャー**です。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">ディメンションとメジャーのペイン</span>
-  <span class="img-placeholder-path">docs/public/images/01-basics/dim-measure-pane.png</span>
-</div>
+![ディメンションとメジャーのペイン](/images/01-basics/dim-measure-pane.png)
 
 ### 自動判定を上書きする
 
@@ -75,11 +71,7 @@ Tableau の最も基本的な区別が **ディメンション** と **メジャ
 
 を意味します。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">緑(連続/軸) と 青(不連続/ヘッダー) の見た目比較</span>
-  <span class="img-placeholder-path">docs/public/images/01-basics/green-vs-blue.png</span>
-</div>
+![緑(連続/軸) と 青(不連続/ヘッダー) の見た目比較](/images/01-basics/green-vs-blue.png)
 
 ### 4 つの組み合わせ
 
@@ -102,11 +94,7 @@ Tableau の最も基本的な区別が **ディメンション** と **メジャ
 
 ビューを組み立てる場所が **シェルフ** です。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">列・行・フィルター・ページのシェルフ</span>
-  <span class="img-placeholder-path">docs/public/images/01-basics/shelves.png</span>
-</div>
+![列・行・フィルター・ページのシェルフ](/images/01-basics/shelves.png)
 
 | シェルフ | 役割 |
 |---------|------|
@@ -123,11 +111,7 @@ Tableau の最も基本的な区別が **ディメンション** と **メジャ
 
 行・列で「どこに置くか」を決め、**マークカード**で「どう見せるか」を決めます。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">マークカード 6 シェルフの全景</span>
-  <span class="img-placeholder-path">docs/public/images/01-basics/mark-card.png</span>
-</div>
+![マークカード 6 シェルフの全景](/images/01-basics/mark-card.png)
 
 | シェルフ | 役割 | 使用例 |
 |---------|------|-------|
@@ -157,11 +141,7 @@ Tableau の最も基本的な区別が **ディメンション** と **メジャ
 
 ビューに **分析オブジェクト**（平均線、中央値線、トレンドライン、予測、ボックスプロット、参照分布、クラスター など）を **ドラッグで追加** するためのパネルです。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">アナリティクスペインのオブジェクト一覧</span>
-  <span class="img-placeholder-path">docs/public/images/01-basics/analytics-pane.png</span>
-</div>
+![アナリティクスペインのオブジェクト一覧](/images/01-basics/analytics-pane.png)
 
 たとえば散布図にトレンドラインを引きたい場合、アナリティクスペインの「トレンドライン」をビューにドラッグするだけで追加できます。
 

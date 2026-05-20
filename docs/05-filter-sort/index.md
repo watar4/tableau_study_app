@@ -116,11 +116,7 @@ Tableau のフィルターは **6 段階** で評価され、上位のものほ�
 「コンテキストにすれば速い」は古いガイドの記述で、Hyper 時代の現在は **必ずしも当てはまりません**。一時テーブル作成のオーバーヘッドが逆効果になる場合もあるため、まずは正確性のために使う、と捉えるのが安全です。
 :::
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">コンテキストに追加されたフィルター（灰色）</span>
-  <span class="img-placeholder-path">docs/public/images/05-filter-sort/context-filter.png</span>
-</div>
+![コンテキストに追加されたフィルター（灰色）](/images/05-filter-sort/context-filter.png)
 
 ---
 
@@ -182,11 +178,7 @@ Tableau のフィルターは **6 段階** で評価され、上位のものほ�
 「全体のトップ 5 を表示しつつ、内訳として `payment_type` も見せたい」場合は、ネストせずに **上位 N + 詳細シェルフ** や **`company` を列・`payment_type` を色** のような構成に組み替えるほうが直感的です。
 :::
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">ネスト並べ替え（payment_type の中での company 順）</span>
-  <span class="img-placeholder-path">docs/public/images/05-filter-sort/nested-sort.png</span>
-</div>
+![ネスト並べ替え（payment_type の中での company 順）](/images/05-filter-sort/nested-sort.png)
 
 ---
 
@@ -248,11 +240,7 @@ Tableau のフィルターは **6 段階** で評価され、上位のものほ�
 クイックフィルターの **▼メニュー** からフィルターの母集合を切り替えられます。「関連する値」にすると **他のフィルターを反映した値のみ** が選択肢に出るため、対話 UI として親切になります。
 :::
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">クイックフィルターの各モード</span>
-  <span class="img-placeholder-path">docs/public/images/05-filter-sort/quick-filters.png</span>
-</div>
+![クイックフィルターの各モード](/images/05-filter-sort/quick-filters.png)
 
 ---
 

@@ -40,11 +40,7 @@ Chicago Taxi のデータには `fare`（料金）と `trip_miles`（距離）�
 3. 中央のエディタに **計算式** を入力
 4. 左下に「計算は有効です」と表示されれば OK。「OK」をクリックして保存
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">計算フィールドの作成メニュー</span>
-  <span class="img-placeholder-path">docs/public/images/06-calc-basics/create-calc.png</span>
-</div>
+![計算フィールドの作成メニュー](/images/06-calc-basics/create-calc.png)
 
 ::: tip フィールド名は分かりやすく
 ダッシュボードを他人に渡すことを考えると、「テスト1」「計算3」のような名前は避け、`チップ率` `マイル単価 (USD)` のように単位と意味が読み取れる名前にしましょう。Tableau のフィールド名は日本語でも問題なく動作します。
@@ -56,11 +52,7 @@ Chicago Taxi のデータには `fare`（料金）と `trip_miles`（距離）�
 
 計算エディタは単なるテキスト入力欄ではなく、**補完・関数リファレンス・構文チェック** が一体になった補助 UI を備えています。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">計算エディタと右側の関数リファレンス</span>
-  <span class="img-placeholder-path">docs/public/images/06-calc-basics/calc-editor.png</span>
-</div>
+![計算エディタと右側の関数リファレンス](/images/06-calc-basics/calc-editor.png)
 
 ### 主な機能
 

@@ -60,11 +60,7 @@ Tableau のファイル形式は用途に応じて 5 種類あります。混同
 3. ワークブック名を入力
 4. アップロードが完了すると、自動でブラウザが開き公開ページが表示される
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">Tableau Public へのサインインダイアログ</span>
-  <span class="img-placeholder-path">docs/public/images/17-publish/public-sign-in.png</span>
-</div>
+![Tableau Public へのサインインダイアログ](/images/17-publish/public-sign-in.png)
 
 ### 公開後にできること
 
@@ -183,11 +179,7 @@ Tableau Public にアップロードしたデータは原則すべて誰でも�
 - ライブで触りながら説明したいとき
 - 編集メニューやデータペインが映ると説明の邪魔になるとき
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">プレゼンテーションモードに切り替えたダッシュボード</span>
-  <span class="img-placeholder-path">docs/public/images/17-publish/presentation-mode.png</span>
-</div>
+![プレゼンテーションモードに切り替えたダッシュボード](/images/17-publish/presentation-mode.png)
 
 ::: tip 静的レポート vs インタラクティブ共有
 - 「読むだけで終わる」資料なら PDF / 画像 / Excel エクスポートが楽

@@ -284,11 +284,7 @@ Tableau の `'weekday'` 番号は **既定で日曜が 1** です。月曜始ま
 
 データペインで日付ディメンション（または接続全体）を右クリック → 「**既定のプロパティ**」 → 「**会計年度の開始**」 → 「4 月」を選択すると、以後 `YEAR()` などが会計年度ベースで返るようになります。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">既定のプロパティ → 会計年度の開始</span>
-  <span class="img-placeholder-path">docs/public/images/08-functions-date/fiscal-year.png</span>
-</div>
+![既定のプロパティ → 会計年度の開始](/images/08-functions-date/fiscal-year.png)
 
 ### 個別フィールドでの上書き
 
@@ -363,11 +359,7 @@ DATETRUNC('week', [trip_start_timestamp])      // 週初（日曜開始）
 DATETRUNC('quarter', [trip_start_timestamp])   // 四半期初
 ```
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">月別売上と前年同月の並列表示例</span>
-  <span class="img-placeholder-path">docs/public/images/08-functions-date/yoy-compare.png</span>
-</div>
+![月別売上と前年同月の並列表示例](/images/08-functions-date/yoy-compare.png)
 
 ---
 

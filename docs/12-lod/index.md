@@ -297,11 +297,7 @@ COUNTD([taxi_id]) /
   WINDOW_MAX(COUNTD([taxi_id]))
 ```
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">コホート × 経過月数のヒートマップ</span>
-  <span class="img-placeholder-path">docs/public/images/12-lod/cohort-heatmap.png</span>
-</div>
+![コホート × 経過月数のヒートマップ](/images/12-lod/cohort-heatmap.png)
 
 ---
 
@@ -374,11 +370,7 @@ Chicago Taxi で LOD の典型を体験します。
 7. **フィルターの順序を実験**: `pickup_community_area = 8` のディメンションフィルターを掛け、`{ FIXED : SUM([trip_total]) }` の値が変わらないことを確認。次に右クリック →「コンテキストに追加」で挙動が変わることを観察。
 8. **INCLUDE で平均を変える**: `車両平均 = AVG({ INCLUDE [taxi_id] : SUM([trip_total]) })` を `company` ビューに置き、`AVG([trip_total])` との差を観察します。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">FIXED と通常集計の結果比較</span>
-  <span class="img-placeholder-path">docs/public/images/12-lod/fixed-vs-aggregate.png</span>
-</div>
+![FIXED と通常集計の結果比較](/images/12-lod/fixed-vs-aggregate.png)
 
 ---
 

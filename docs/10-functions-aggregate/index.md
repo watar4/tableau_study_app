@@ -135,11 +135,7 @@ ATTR([company])
 
 ビューの粒度で会社が 1 つしかない場合は会社名が、複数混ざっている場合は文字どおり `*` が表示されます。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">ATTR が `*` を返している様子</span>
-  <span class="img-placeholder-path">docs/public/images/10-functions-aggregate/attr-asterisk.png</span>
-</div>
+![ATTR が `*` を返している様子](/images/10-functions-aggregate/attr-asterisk.png)
 
 ### 主な用途
 
@@ -234,11 +230,7 @@ Chicago Taxi データで集計関数の挙動を確認しましょう。
 6. **混在エラーを体感**: 計算フィールドに `[trip_total] - AVG([trip_total])` と書いてエラーになることを確認 → 右辺を `{ FIXED : AVG([trip_total]) }` に書き換えて成功させます。
 7. **NULL の扱い**: `tips` には NULL が混ざる場合があります。`AVG([tips])` と `AVG(ZN([tips]))` を並べて差を確認します（NULL を 0 として平均すると分母が増え、値が下がります）。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">会社別の平均値と中央値の比較</span>
-  <span class="img-placeholder-path">docs/public/images/10-functions-aggregate/avg-vs-median.png</span>
-</div>
+![会社別の平均値と中央値の比較](/images/10-functions-aggregate/avg-vs-median.png)
 
 ---
 

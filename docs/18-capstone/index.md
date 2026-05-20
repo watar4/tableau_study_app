@@ -250,17 +250,9 @@ Tableau Public のプロフィールには、作ったダッシュボードが�
 
 ## 完成イメージ
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">完成ダッシュボードのスクリーンショット</span>
-  <span class="img-placeholder-path">docs/public/images/18-capstone/final-dashboard.png</span>
-</div>
+![完成ダッシュボードのスクリーンショット](/images/18-capstone/final-dashboard.png)
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">Tableau Public 公開ページの埋め込みプレビュー</span>
-  <span class="img-placeholder-path">docs/public/images/18-capstone/public-embed.png</span>
-</div>
+![Tableau Public 公開ページの埋め込みプレビュー](/images/18-capstone/public-embed.png)
 
 ---
 
