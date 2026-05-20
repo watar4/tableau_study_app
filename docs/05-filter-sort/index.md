@@ -72,11 +72,7 @@ Tableau のフィルターは **6 段階** で評価され、上位のものほ�
 
 上位 N フィルター（後述）は **ディメンションフィルター** の一種ですが、**集計に基づくランキング** を内部で使います。そのため、上位 N の評価対象を絞り込みたい場合は **コンテキストフィルター** が役立ちます（次節）。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">フィルター評価順のレイヤー図</span>
-  <span class="img-placeholder-path">docs/public/images/05-filter-sort/filter-order.png</span>
-</div>
+![フィルター評価順のレイヤー図](/images/05-filter-sort/filter-order.png)
 
 ---
 

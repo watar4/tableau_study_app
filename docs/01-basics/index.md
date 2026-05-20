@@ -180,11 +180,7 @@ Tableau のファイルは階層構造を持ちます。
        └─ ストーリー (シートやダッシュボードを並べたプレゼン形式)
 ```
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">データソース 〜 ストーリーの階層図</span>
-  <span class="img-placeholder-path">docs/public/images/01-basics/workbook-structure.png</span>
-</div>
+![データソース 〜 ストーリーの階層図](/images/01-basics/workbook-structure.png)
 
 ### ファイル形式
 

@@ -54,11 +54,7 @@ import quiz from './quiz.json'
 通常の集計は「ビューが見ている粒度で都度集計」しますが、LOD は「**この粒度の集計値を 1 つの列として確保**」してくれる仕組みです。これにより行レベル計算の中でも使えるようになります。
 :::
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">通常の集計と LOD の粒度の違い</span>
-  <span class="img-placeholder-path">docs/public/images/12-lod/lod-granularity.png</span>
-</div>
+![通常の集計と LOD の粒度の違い](/images/12-lod/lod-granularity.png)
 
 ---
 
@@ -196,11 +192,7 @@ LOD を使いこなすうえで最も重要な知識が **フィルターの評�
 8. 表計算（およびそれをベースにしたフィルター）
 ```
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">フィルター評価順序の概念図</span>
-  <span class="img-placeholder-path">docs/public/images/12-lod/filter-order.png</span>
-</div>
+![フィルター評価順序の概念図](/images/12-lod/filter-order.png)
 
 ### 何が問題になるか
 

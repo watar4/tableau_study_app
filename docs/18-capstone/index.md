@@ -135,11 +135,7 @@
 2. マークタイプ「密度（ヒートマップ）」を選択
 3. 色を変えて視認性を上げる
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">シート設計のメモ（手描きスケッチでも可）</span>
-  <span class="img-placeholder-path">docs/public/images/18-capstone/sheet-design-sketch.png</span>
-</div>
+![シート設計のメモ（手描きスケッチでも可）](/images/18-capstone/sheet-design-sketch.png)
 
 ::: tip シート単体で意味を持たせる
 ダッシュボード前提で作っていると、シート単体での意味づけが甘くなりがちです。「このシートだけ別資料に貼ったら何を伝えるか」を意識すると、ラベル・タイトル・色の設計が引き締まります。
@@ -185,11 +181,7 @@
 - 会社別棒グラフのマーク選択 → ハイライトアクションで他シートのその会社を強調
 - 「指標切替」パラメーターで KPI の意味づけを変えるのは応用課題
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">完成イメージのワイヤーフレーム</span>
-  <span class="img-placeholder-path">docs/public/images/18-capstone/dashboard-wireframe.png</span>
-</div>
+![完成イメージのワイヤーフレーム](/images/18-capstone/dashboard-wireframe.png)
 
 ---
 

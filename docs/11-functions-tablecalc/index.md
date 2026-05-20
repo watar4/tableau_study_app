@@ -34,11 +34,7 @@ import quiz from './quiz.json'
 - データベースには **追加クエリは飛ばず**、ビュー上で再計算される（軽い）。
 - 「累計」「前年比」「順位」「移動平均」のような、**並びと位置関係** に基づく計算が得意。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">3 種類の計算（行レベル / 集計 / 表計算）の評価フロー</span>
-  <span class="img-placeholder-path">docs/public/images/11-functions-tablecalc/calc-pipeline.png</span>
-</div>
+![3 種類の計算（行レベル / 集計 / 表計算）の評価フロー](/images/11-functions-tablecalc/calc-pipeline.png)
 
 ::: tip 表計算は「ビューを見ながら考える」もの
 データだけ見て表計算を書くのは難しいです。まずクロス集計表でビューを作り、「今どの数字を見ているか」を把握してから書き始めると躓きません。

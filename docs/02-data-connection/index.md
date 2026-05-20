@@ -114,11 +114,7 @@ BigQuery はスキャンしたデータ量に応じて課金されます。ラ�
 結合では LEFT JOIN によって NULL 行が生成されたり、多対多で `SUM` が二重計上されたりすることがあります。リレーションシップでは Tableau がビューの粒度に合わせて結合を組み立てるため、こうした集計ミスを避けやすくなります。
 :::
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">リレーションシップ・結合・ユニオンの違い</span>
-  <span class="img-placeholder-path">docs/public/images/02-data-connection/relationship-join-union.png</span>
-</div>
+![リレーションシップ・結合・ユニオンの違い](/images/02-data-connection/relationship-join-union.png)
 
 ---
 
@@ -138,11 +134,7 @@ BigQuery はスキャンしたデータ量に応じて課金されます。ラ�
 
 たとえば「乗車テーブル」と「会社マスタ」をリレーションシップで結びつつ、乗車テーブル内部では「2023 年 1 月〜12 月の月別 CSV をユニオン」している、といった組み合わせが可能です。
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">論理レイヤー（外側）と物理レイヤー（内側）</span>
-  <span class="img-placeholder-path">docs/public/images/02-data-connection/logical-physical-layer.png</span>
-</div>
+![論理レイヤー（外側）と物理レイヤー（内側）](/images/02-data-connection/logical-physical-layer.png)
 
 ---
 

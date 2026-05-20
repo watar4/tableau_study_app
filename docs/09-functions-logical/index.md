@@ -187,11 +187,7 @@ ZN([tips])
 ([fare] > 10 AND [tips] > 0) OR [payment_type] = "Cash"
 ```
 
-<div class="img-placeholder">
-  <span class="img-placeholder-tag">画像予定</span>
-  <span class="img-placeholder-caption">論理演算子の優先順位と括弧の必要性</span>
-  <span class="img-placeholder-path">docs/public/images/09-functions-logical/operator-precedence.png</span>
-</div>
+![論理演算子の優先順位と括弧の必要性](/images/09-functions-logical/operator-precedence.png)
 
 ::: tip 短絡評価には依存しない
 プログラミング言語のような「`AND` は左が偽なら右を評価しない」という短絡評価は、Tableau の最適化エンジン次第で挙動が変わる可能性があります。「左で NULL チェック → 右で値を参照」のような書き方ではなく、`IFNULL` や `ISNULL` を先に処理してから論理式に渡すほうが安全です。
